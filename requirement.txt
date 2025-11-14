@@ -10,5 +10,4 @@ langgraph-supervisor
 langgraph-checkpoint-sqlite
 ipynbname
 fastmcp
-supervisord
 bs4
