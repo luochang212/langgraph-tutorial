@@ -22,7 +22,7 @@ jobs:
       - run: jupyter-book build .
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _build/html
+          path: _build/site
 
   deploy:
     needs: build
