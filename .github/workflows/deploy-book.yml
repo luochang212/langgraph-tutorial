@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -U pip jupyter-book
-      - run: jupyter-book build .
+      - run: jupyter-book build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _build/site

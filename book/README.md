@@ -17,7 +17,7 @@ jupyter book init
 构建项目：
 
 ```bash
-jupyter book build .
+jupyter book build
 ```
 
 启动项目：
