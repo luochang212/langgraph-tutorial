@@ -10,7 +10,7 @@ project:
 site:
   template: book-theme
   options:
-    logo_text: LangGraph 1.0 教程
+    logo_text: Dive into LangGraph
     # logo: ./static/my-logo.svg  # 可选，添加自定义logo
     # favicon: ./static/favicon.ico  # 可选，配置浏览器图标
 toc: _toc.yml

@@ -21,7 +21,7 @@ jobs:
       - run: pip install -U pip jupyter-book
       - run: jupyter-book build --html
         env:
-          BASE_URL: /langgraph-tutorial/
+          BASE_URL: /dive-into-langgraph/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _build/html
