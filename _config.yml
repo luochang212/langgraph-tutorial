@@ -1,10 +1,10 @@
 title: LangGraph Tutorial
 author: Luo Chang
 repository:
-  url: https://github.com/luochang212/langgraph-tutorial
+  url: https://github.com/luochang212/dive-into-langgraph
   path_to_book: .
 sphinx:
   config:
-    html_baseurl: https://luochang212.github.io/langgraph-tutorial/
+    html_baseurl: https://luochang212.github.io/dive-into-langgraph/
 execute:
   execute_notebooks: "off"
