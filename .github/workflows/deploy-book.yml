@@ -15,11 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: "3.11"
-      - run: pip install -U pip jupyter-book
-      - run: jupyter-book build --html
+          node-version: "20"
+      - run: npx --yes mystmd build --html
         env:
           BASE_URL: /dive-into-langgraph/
       - uses: actions/upload-pages-artifact@v3
